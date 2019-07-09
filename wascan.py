@@ -53,7 +53,7 @@ class wascan(object):
 			self.usage.basic(True)
 		try:
 			opts,args = getopt.getopt(ARGV[1:],CHAR,LIST_NAME)
-		except getopt.GetoptError,e:
+		except getopt.GetoptErrore:
 			# True == exit
 			self.usage.basic(True)
 		# wascan banner
